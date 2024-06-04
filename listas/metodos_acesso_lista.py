@@ -10,8 +10,8 @@ lista.clear()
  
 #Metódo copy
 segunda_lista = [1, "Python", [40, 30, 20]]
-lista.copy()
-print(segunda_lista)
+lista = segunda_lista.copy()
+print(lista)
 
 #Metodo Count
 lista_cores = ["Verde", "Azul", "Vermelho", "Verde", "Laranja"]
@@ -31,7 +31,7 @@ linguagens_progrmacao.pop()
 linguagens_progrmacao.pop(0)
 print(linguagens_progrmacao)
 
-#Pop - Remove a primeira ocorrência do objecto que foi informado
+#remove - Remove a primeira ocorrência do objecto que foi informado
 linguagens_progrmacao.remove("Java")
 print(linguagens_progrmacao)
 
