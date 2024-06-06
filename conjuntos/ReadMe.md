@@ -30,4 +30,5 @@ Para remover elementos de um conjunto em Python, também existem vários método
 
 ![discard pop remove](https://github.com/joao-nzuzi/trilha-python/assets/92062255/a19e048d-3cbb-41bc-92ce-fbb9ac3d8ef3)
 
-**Obs.:** Lembre-se de que é importante usar esses métodos com cuidado, especialmente `remove()` e `discard()`, para evitar exceções indesejadas.
+> [!NOTE]
+> Lembre-se de que é importante usar esses métodos com cuidado, especialmente `remove()` e `discard()`, para evitar exceções indesejadas.
