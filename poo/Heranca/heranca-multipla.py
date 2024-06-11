@@ -24,7 +24,7 @@ class Ornitorrinco(Mamifero, Ave):
     def __init__(self, cor_pelo, cor_bico, numero_patas, numero_olhos, genero):
         super().__init__(cor_pelo = cor_pelo, cor_bico = cor_bico, numero_patas = numero_patas, numero_olhos = numero_olhos, genero = genero)
         
-        print(Ornitorrinco.__mro__) # Ornitorrinco.__mro__ / Ornitorrinco.mro()-> detalha a ordem de leitura que o compilador usa para encontrar os metodos
+        print(Ornitorrinco.__mro__) # Ornitorrinco.__mro__ / Ornitorrinco.mro()-> Python utiliza o Method Resolution Order (MRO) para determinar a ordem em que as classes são pesquisadas por métodos e atributos.
 
 cao = Cao(cor_pelo= "Castanho", numero_patas = 4, numero_olhos = 2, genero = "Macho")
 print(cao)
